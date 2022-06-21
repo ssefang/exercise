@@ -11,7 +11,7 @@ function Post() {
   const descriptionRef = useRef();
   const isActiveRef = useRef();
   const winnerRef = useRef();
-  const url = process.env.REACT_APP_SERVER_URL || "http://localhost:3001";
+  const url = "http://localhost:3001";
 
   const handleSubmit = (event) => {
     event.preventDefault(); // prevent page reload

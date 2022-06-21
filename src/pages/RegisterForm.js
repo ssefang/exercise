@@ -44,7 +44,7 @@ const RegisterForm = () => {
 
   const [success, setSuccess] = useState(false);
 
-  const url = process.env.REACT_APP_SERVER_URL || "http://localhost:3001";
+  const url = "http://localhost:3001";
 
   useEffect(() => {
     userRef.current.focus();

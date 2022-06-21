@@ -17,7 +17,7 @@ function Update(props) {
   });
   const params = useParams();
   const navigate = useNavigate();
-  const url = process.env.REACT_APP_SERVER_URL || "http://localhost:3001";
+  const url = "http://localhost:3001";
 
   useEffect(() => {
     const id = params.id.toString();

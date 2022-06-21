@@ -17,7 +17,7 @@ function ItemList() {
   const [user, setUser] = useState("");
 
   const usernameRef = useRef();
-  const url = process.env.REACT_APP_SERVER_URL || "http://localhost:3001";
+  const url = "http://localhost:3001";
 
   useEffect(() => {
     axios

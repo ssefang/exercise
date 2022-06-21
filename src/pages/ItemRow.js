@@ -14,7 +14,7 @@ const ItemRow = (props) => {
     isActive,
     winner,
   } = props.obj;
-  const url = process.env.REACT_APP_SERVER_URL || "http://localhost:3001";
+  const url = "http://localhost:3001";
 
   const deleteItem = () => {
     axios
