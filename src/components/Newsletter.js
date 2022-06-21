@@ -8,7 +8,7 @@ const Newsletter = () => {
         <div className='new-container'>
             <div className='new-row'>
                 <div className='new-col'>
-                    <h2 className='new-title'>Stay In the Loop</h2>
+                    <h2 className='new-title'>Stay In the Look</h2>
                     <p className='new-desc'>subscribe</p>
                     <div className='input-container'>
                         <input type='text' placeholder='Enter your email' />

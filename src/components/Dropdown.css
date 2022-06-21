@@ -9,8 +9,6 @@
 .dropdown-menu li{
     background: #d69226;
     cursor: pointer;
-    z-index: 9999;
-    position: relative;
 }
 
 .dropdown-menu li:hover{

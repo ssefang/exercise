@@ -30,29 +30,3 @@ export const category = [
         image:"/images/category/3.png"
     },
 ];
-export const counts = [
-    {
-        "id": "001",
-        "label": "Support people",
-        "number": "450,000",
-        "duration": "2"
-    },
-    {
-        "id": "002",
-        "label": "Support Schools",
-        "number": "5321",
-        "duration": "2"
-    },
-    // {
-    //     "id": "003",
-    //     "label": "Outr ",
-    //     "number": "1000",
-    //     "duration": "2"
-    // },
-    {
-        "id": "004",
-        "label": "Our Donors",
-        "number": "3892",
-        "duration": "2"
-    }
-];

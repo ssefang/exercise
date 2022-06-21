@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { LoggedInContext } from "../App";
 import { UserInContext } from "../App";
 
+
 import Navbar from "./Navbar";
 import Toggle from "./Toggle";
 
@@ -18,6 +19,7 @@ function Header() {
         <div>
             <Navbar />
             <Toggle />
+
         </div>
 
     )

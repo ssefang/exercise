@@ -1,12 +1,12 @@
 .c-container {
-    height: 50vh;
+    height: 40vh;
 }
 
 .c-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 70%;
 }
 
 .c-col {
