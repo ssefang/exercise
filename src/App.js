@@ -51,8 +51,8 @@ function App() {
               <Route path="login" element={<LoginForm />} />
               {/* <Route path="sign-up" element={<RegisterForm />} />
               <Route path="signout" element={<SignOut />} /> */}
-              {/* <Route path="kids" element={<Kids />} /> */}
-              {/* <Route path="*" element={<Navigate to="/" />} /> */}
+              <Route path="kids" element={<Kids />} />
+              <Route path="*" element={<Navigate to="/" />} />
             </Route>
             {/* <Route element={<DashboardLayout />}>
               <Route element={<SidebarLayout />}>
