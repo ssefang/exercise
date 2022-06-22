@@ -49,18 +49,18 @@ function App() {
               <Route index element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="login" element={<LoginForm />} />
-              {/* <Route path="sign-up" element={<RegisterForm />} />
-              <Route path="signout" element={<SignOut />} /> */}
+              <Route path="sign-up" element={<RegisterForm />} />
+              <Route path="signout" element={<SignOut />} />
               <Route path="kids" element={<Kids />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Route>
-            {/* <Route element={<DashboardLayout />}>
+            <Route element={<DashboardLayout />}>
               <Route element={<SidebarLayout />}>
                 <Route path="/post" element={<Post />} />
                 <Route path="/itemList" element={<ItemList />} />
                 <Route path="/edit/:id" element={<Update />} />
               </Route>
-            </Route> */}
+            </Route>
           </Routes>
         </UserInContext.Provider>
       </LoggedInContext.Provider>
